@@ -20,5 +20,17 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^2.0.1
 
+dependency_overrides:
+  wakelock:
+    git:
+      url: https://github.com/timsneath/wakelock
+      ref: win32-v5
+      path: wakelock
+  wakelock_windows:
+    git:
+      url: https://github.com/timsneath/wakelock
+      ref: win32-v5
+      path: wakelock_windows
+
 flutter:
   uses-material-design: true
